@@ -1,3 +1,7 @@
 /* Hero section */
+.hero{height: 75vh; width: 100%; background: rgb(255, 108, 108); background-attachment: fixed; background: url(../images/hero.jpg) center right no-repeat; background-size: cover;}
+.hero h1{font-size: 70px; color: #fff;}
+.hero p{font-size: 30px; color: #fff;}
+.hero i{font-size: 40px; color: #fff;}
 
-.hero{height: 75vh; width: 100%; background: rgb(255, 108, 108);}
+header{height: 60px;}
