@@ -6,6 +6,7 @@
     background-attachment: fixed;
     background: url(../images/hero.jpg) center right no-repeat;
     background-size: cover;
+    font-family: 'Righteous', cursive;
 }
 
 .hero h1 {
@@ -25,4 +26,16 @@
 
 header {
     height: 60px;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover, .navbar .active{
+    color: #d43076 !important;
+}
+
+.nav-item{
+    margin-right: 25px;
 }
