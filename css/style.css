@@ -1,3 +1,6 @@
+h1, h4{font-family: 'Righteous', cursive;}
+p, .navbar{font-family: 'Poppins', sans-serif;}
+
 /* Hero section */
 .hero {
     height: 75vh;
@@ -6,7 +9,7 @@
     background-attachment: fixed !important;
     background: url(../images/hero.jpg) center right;
     background-size: cover;
-    font-family: 'Righteous', cursive;
+    
 }
 
 .hero h1 {
@@ -14,22 +17,15 @@
     color: #fff;
 }
 
-.hero p {
+.hero p, .hero i {
     font-size: 30px;
     color: #fff;
 }
 
-.hero i {
-    font-size: 40px;
-    color: #fff;
-}
 
+/* Nav Section */
 header {
     height: 60px;
-}
-
-.navbar{
-    font-family: 'Poppins', sans-serif;
 }
 
 .nav-link:hover, .navbar .active{
