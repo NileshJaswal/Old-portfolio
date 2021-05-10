@@ -22,6 +22,12 @@ p, .navbar{font-family: 'Poppins', sans-serif;}
     color: #fff;
 }
 
+.hero i{transition: all .2s ease-in-out;}
+.hero i:hover{
+    color: #d43076;
+    transform: translateY(5px);
+}
+
 
 /* Nav Section */
 header {
@@ -35,3 +41,10 @@ header {
 .nav-item{
     margin-right: 25px;
 }
+
+/* About Section */
+#about p span{
+    color: #d43076;
+}
+
+/* Skills Section */
