@@ -3,8 +3,8 @@
     height: 75vh;
     width: 100%;
     background: rgb(255, 108, 108);
-    background-attachment: fixed;
-    background: url(../images/hero.jpg) center right no-repeat;
+    background-attachment: fixed !important;
+    background: url(../images/hero.jpg) center right;
     background-size: cover;
     font-family: 'Righteous', cursive;
 }
