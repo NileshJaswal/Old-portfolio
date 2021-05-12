@@ -149,3 +149,10 @@ header {
     font-weight: bold;
     margin-left: 4px;
 }
+
+
+/* contact section */
+.social i{
+    font-size: 40px;
+    margin-right: 10px;
+}

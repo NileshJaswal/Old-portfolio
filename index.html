@@ -124,7 +124,7 @@
   <!-- About section ends -->
 
   <div id="skills">
-    <div class="container mt-4" style="overflow-x: hidden;">
+    <div class="container my-4" style="overflow-x: hidden;">
       <div class="row d-flex justify-content-center">
         <div class="col-12">
           <h3 class="text-center">My Skills</h3>
@@ -197,19 +197,41 @@
   <!-- Skills section ends -->
 
   <div id="contact">
-    <div class="container">
-      <form action="mailto:arcanenilesh@gmail.com" method="GET">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Your Name</label>
-          <input type="text" name="subject" class="form-control" id="exampleFormControlInput1"
-            placeholder="Enter your Name">
+    <div class="container my-4">
+      <h3 class="text-center">Contact Me **Unfinished section**</h3>
+      <div class="row d-flex align-items-center mt-3">
+        <div class="col-md-6">
+          <div class="d-flex align">
+            <i class="fas fa-map-marker-alt"></i><p>984, Sector 60, Phase 3B-2, Mohali, PB 160059</p>
+          </div>
+          <div class="d-flex align">
+            <i class="far fa-envelope"></i><p>Arcanenilesh@gmail.com</p>
+          </div>
+          <div class="d-flex align">
+            <i class="fas fa-mobile-alt"></i><p>+918264120147</p>
+          </div>
+          <div class="d-flex social">
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-          <textarea class="form-control" name="body" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="col-md-6">
+          <form action="mailto:arcanenilesh@gmail.com" method="GET">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+              <input type="text" name="subject" class="form-control" id="exampleFormControlInput1"
+                placeholder="Enter your Name" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+              <textarea class="form-control" name="body" id="exampleFormControlTextarea1" rows="3" required></textarea>
+            </div>
+            <input type="submit"  class="btn btn-primary" value="Send">
+          </form>
         </div>
-        <input type="submit"  class="btn btn-primary" value="Send">
-      </form>
+      </div>
     </div>
   </div>
 
