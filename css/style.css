@@ -20,9 +20,11 @@ p,
     width: 100%;
     background: rgb(255, 108, 108);
     background-attachment: fixed !important;
-    background: url(../images/hero.jpg) center right;
+    background: url(../images/hero2.jpg) center right;
     background-size: cover;
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.6);
 }
+
 
 .hero .btn {
     background: #F43735 !important;
@@ -40,14 +42,16 @@ p,
     color: #fff;
 }
 
-.hero p,
-.hero i {
+.hero p {
     font-size: 30px;
     color: #fff;
+    font-weight: bold;
 }
 
 .hero i {
     transition: all .2s ease-in-out;
+    font-size: 30px;
+    color: #fff;
 }
 
 .hero i:hover {
