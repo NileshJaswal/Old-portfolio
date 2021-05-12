@@ -61,6 +61,18 @@ p,
 
 
 /* Nav Section */
+.navbar.navbar-expand-lg.navbar-light.bg-white{
+    border-radius: 15px;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
 header {
     height: 60px;
 }
