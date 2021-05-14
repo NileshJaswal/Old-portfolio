@@ -124,17 +124,12 @@ p,
 
 
 /* contact section */
-.social i{
-    font-size: 40px;
-    margin-right: 10px;
-}
-
-#contact .adr i{font-size: 30px;}
 #contact .adr p{margin-bottom: 0;}
-#contact .adr{margin-bottom: 10px;}
+#contact .adr{margin-bottom: 7px;}
 
 #contact i{
-    color: #F43735; 
+    color: #F43735;
+    font-size: 30px; 
 }
 
 #contact i:hover{
@@ -150,3 +145,16 @@ p,
     background: #d4312f !important;
     border-color: #d4312f !important;
 }
+
+.social i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+/* Footer section */
+#footer{
+    box-shadow: 0 -10px 20px 0 rgba(0,0,0,0.05);
+    padding: 20px;
+}
+
+#footer span{color: #F43735; cursor: pointer; font-weight: bold;}
