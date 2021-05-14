@@ -126,11 +126,12 @@ p,
 /* contact section */
 .social i{
     font-size: 40px;
-    margin-right: 10px;
+    
 }
 
 #contact i{
     color: #F43735;
+    margin-right: 10px;
 }
 
 #contact i:hover{
