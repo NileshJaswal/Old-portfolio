@@ -287,3 +287,5 @@ p,
     border-radius: 50px;
     transition: all 0.4s;
 }
+
+.back-to-top:hover{color:#f6e58d}
