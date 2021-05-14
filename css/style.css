@@ -57,26 +57,7 @@ p,
     font-weight: bold;
 }
 
-.hero i {
-    transition: all .2s ease-in-out;
-    font-size: 30px;
-    color: #fff;
-}
-
-.hero i:hover {
-    color: #F43735;
-    transform: translateY(5px);
-}
-
-
 /* Nav Section */
-.navbar.navbar-expand-lg.navbar-light.bg-white{
-    border-radius: 15px;
-}
-
-header {
-   
-}
 
 .nav-link:hover,
 .navbar .active {
@@ -147,4 +128,5 @@ header {
 .social i{
     font-size: 40px;
     margin-right: 10px;
+    color: #F43735;
 }
