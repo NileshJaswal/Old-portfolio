@@ -27,8 +27,7 @@ p,
 .hero {
     height: 85vh;
     width: 100%;
-    background: rgb(255, 108, 108);
-    /* background-attachment: fixed !important; */
+    background-attachment: fixed !important;
     background: url(../images/hero2.jpg) center right;
     background-size: cover;
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.6);
@@ -128,5 +127,22 @@ p,
 .social i{
     font-size: 40px;
     margin-right: 10px;
+}
+
+#contact i{
     color: #F43735;
+}
+
+#contact i:hover{
+    color: #d4312f;
+}
+
+#contact .btn{
+    background: #F43735 !important;
+    border-color: #F43735 !important;
+}
+
+#contact .btn:hover{
+    background: #d4312f !important;
+    border-color: #d4312f !important;
 }
