@@ -3,7 +3,7 @@
 /* @media (prefers-color-scheme: dark) {
     body {
       background-color: black;
-      color: white;
+      color: #6AF0EF;
     }
 } */
 
@@ -202,15 +202,15 @@ p,
 .progress-outer {
     background: #fff;
     border-radius: 50px;
-    padding: 25px;
-    margin: 10px 0;
+    padding: 18px;
+    margin: 15px 0;
     box-shadow: 0 0 10px rgba(209, 219, 231, 0.7);
 }
 
-.progress-bar{background-color: #4b7dab;}
+.progress-bar{background-color: #dd5a92;}
 
 .progress {
-    height: 27px;
+    height: 17px;
     margin: 0;
     overflow: visible;
     border-radius: 50px;
@@ -226,8 +226,8 @@ p,
 .progress .progress-value {
     position: relative;
     left: -45px;
-    top: 4px;
-    font-size: 14px;
+    top: 0px;
+    font-size: 12px;
     font-weight: bold;
     color: #fff;
     letter-spacing: 2px;
@@ -253,7 +253,7 @@ p,
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #4b7dab;
+  border-left: 2px solid #dd5a92;
   position: relative;
 }
 
@@ -296,7 +296,7 @@ p,
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #2c4964;
+  border: 2px solid #dd5a92;
 }
 
 
@@ -334,14 +334,14 @@ p,
     padding: 20px;
 }
 
-#footer span{color: #F43735; cursor: pointer; font-weight: bold;}
+#footer span{color: #2c4964; cursor: pointer; font-weight: bold;}
 
 .back-to-top {
     position: fixed;
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #F43735;
+    background: #4b7dab;
     color: #fff;
     width: 40px;
     height: 40px;
