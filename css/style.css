@@ -16,6 +16,7 @@ h3,
 h4,
 .navbar-brand {
     font-family: 'Righteous', cursive;
+    color: #2c4964;
 }
 
 p,
@@ -34,12 +35,7 @@ p,
 }
 
 
-.hero .btn {
-    background: #F43735 !important;
-    border-color: #F43735 !important;
-    transition: all .2s ease-in-out;
-    font-family: 'Poppins', sans-serif;
-}
+
 
 .hero .btn:hover {
     transform: scale(1.2);
@@ -174,7 +170,7 @@ p,
 
 .nav-link:hover,
 .navbar .active {
-    color: #F43735 !important;
+    color: #dd5a92 !important;
 }
 
 .nav-item {
@@ -183,7 +179,7 @@ p,
 
 /* About Section */
 #about p span {
-    color: #F43735;
+    color: #dd5a92;
 }
 
 /* Skills Section */
@@ -260,7 +256,7 @@ p,
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
-  font-weight: 600;
+  /* font-weight: 600; */
   color: #2c4964;
   margin-bottom: 10px;
 }
@@ -334,7 +330,7 @@ p,
     padding: 20px;
 }
 
-#footer span{color: #2c4964; cursor: pointer; font-weight: bold;}
+#footer span{color: #dd5a92; cursor: pointer; font-weight: bold;}
 
 .back-to-top {
     position: fixed;
@@ -349,4 +345,4 @@ p,
     transition: all 0.4s;
 }
 
-.back-to-top:hover{color:#f6e58d}
+.back-to-top:hover{color:#dd5a92}
