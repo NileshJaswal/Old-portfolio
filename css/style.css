@@ -61,7 +61,7 @@ p,
 .hero button{
     width:135px;
     height:40px;
-    background: linear-gradient(to left top, #F43735 50%, #d4312f 50%);
+    background: linear-gradient(to left top, #4b7dab 50%, #3c6a96 50%);
     border-style: none;
     color:#fff;
     font-size: 16px;
@@ -170,7 +170,7 @@ p,
 
 /* Nav Section */
 
-.navbar-brand{color: #F43735 !important;}
+.navbar-brand{color: #2c4964 !important;}
 
 .nav-link:hover,
 .navbar .active {
@@ -207,7 +207,7 @@ p,
     box-shadow: 0 0 10px rgba(209, 219, 231, 0.7);
 }
 
-.progress-bar{background-color: #F43735;}
+.progress-bar{background-color: #4b7dab;}
 
 .progress {
     height: 27px;
@@ -220,6 +220,7 @@ p,
 
 .progress .progress-bar {
     border-radius: 50px;
+    box-shadow:-1px 10px 10px rgba(108, 78, 240, 0.7);
 }
 
 .progress .progress-value {
@@ -252,7 +253,7 @@ p,
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #d43076;
+  border-left: 2px solid #4b7dab;
   position: relative;
 }
 
@@ -295,7 +296,7 @@ p,
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #d43076;
+  border: 2px solid #2c4964;
 }
 
 
@@ -304,22 +305,22 @@ p,
 #contact .adr{margin-bottom: 7px;}
 
 #contact i{
-    color: #F43735;
+    color: #4b7dab;
     font-size: 30px; 
 }
 
 #contact i:hover{
-    color: #d4312f;
+    color: #4b7dab;
 }
 
 #contact .btn{
-    background: #F43735 !important;
-    border-color: #F43735 !important;
+    background: #4b7dab !important;
+    border-color: #4b7dab !important;
 }
 
 #contact .btn:hover{
-    background: #d4312f !important;
-    border-color: #d4312f !important;
+    background: #2c4964 !important;
+    border-color: #2c4964 !important;
 }
 
 .social i{
