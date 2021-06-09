@@ -270,18 +270,21 @@
         <div class="col-md-6 mt-4 mt-md-0">
 
 
-          <form action="mail.php" method="POST">
+
+          <form role="form" action="mail.php" method="POST">
             <div class="mb-3">
-              <input type="text" class="form-control" name="name" placeholder="Enter your Name" required>
+              <input type="text" class="form-control" name="name" placeholder="First name" required>
             </div>
             <div class="mb-3">
               <input type="email" class="form-control" name="email" placeholder="Enter your Email" required>
             </div>
             <div class="mb-3">
+              <input class="form-control" name="mobile" required="required" type="text" placeholder="Enter Mobile No"/>
+            </div>
+            <div class="mb-3">
               <textarea class="form-control" name="message" rows=”3″ placeholder="Your Message" required></textarea>
             </div>
-            <div class="text-center"><input type="submit" class="btn btn-primary" value="Send"></div>
-            <div class="text-center"><input type="reset" class="btn btn-primary" value="Reset"></div>
+            <div class="text-center"><input type="submit" name="submit" class="btn btn-primary" value="Submit"></div>
           </form>
 
 
