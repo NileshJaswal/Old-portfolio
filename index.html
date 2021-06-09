@@ -271,9 +271,15 @@
            
 
 <form action=”mailto:arcanenilesh@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
-<input type=”text” size=”19″ name=”ContactName”>
-<textarea name=”ContactCommentt” rows=”6″ cols=”20″>
-</textarea><input type=”submit” value=”Submit”> </form>
+              <div class="mb-3">
+              <input type=”text” class="form-control" name=”ContactName” placeholder="Enter your Name" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" name=”ContactCommentt” rows=”3″ placeholder="Your Message" required></textarea>
+            </div>
+            <div class="text-center"><input type="submit" class="btn btn-primary" value="Submit"></div>
+
+ </form>
 
 
         </div>
